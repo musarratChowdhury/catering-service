@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Secular+One&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid; */
+}
+body {
+  font-family: "Secular One", sans-serif;
+}
+.navigation {
+  font-family: "Lobster", cursive;
+}
+.nav-link:hover {
+  border: 2px solid white;
+  border-radius: 20%;
+}
+.nav-item .active {
+  border: 1px solid white;
+  border-radius: 20%;
+}
+
+.banner-image-container {
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  height: 200px;
+
+  background-position: center;
+}
+/* about staff */
+.staff-profile-section .title {
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+}
+.staff-image-container img {
+  width: 150px;
+}
+.staff-image-container {
+  padding-left: 1rem;
+}
+
+.staff-image-container .staff-3 {
+  width: 200px;
+  height: 200px;
+  background-image: url("assets/staff-3.jpg");
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.staff-image-container .staff-2 {
+  width: 200px;
+  height: 200px;
+  background-image: url("assets/staff-2.jpg");
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.staff-image-container .staff-1 {
+  width: 200px;
+  height: 200px;
+  background-image: url("assets/staff-1.jpg");
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+.staff-about-container {
+  padding-left: 2rem;
+}
+.staff-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.staff-designation {
+  font-size: 1.2rem;
+}
+.staff-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(240, 217, 186);
+  margin-top: 0.5rem;
+  border-radius: 20px;
+}
+.staff-profile-container {
+  width: 65%;
+  margin: 20px auto;
+}
+.staff-about {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+/* about comp[any section */
+.about-company-container .title {
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+}
+/* 
+ */
+.about-company-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.company-image img {
+  margin: 0 auto;
+}

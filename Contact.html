@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+   , initial-scale=1.0"
+    />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./Contact.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/contact.js" defer></script>
+  </head>
+  <body>
+    <!-- navigation section -->
+    <section class="navigation" id="navigation ">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-2" href="#">Mush's Catering</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  aria-current="page"
+                  href="./Homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="./Contact.html"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./FAQ.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- banner section -->
+    <section class="banner-section" id="banner-section">
+      <div class="banner-image-container"></div>
+    </section>
+    <!-- banner section -->
+    <!-- contact form section -->
+    <section class="contact-form-section" id="contact-form-section">
+      <div class="contact-form-container">
+        <div class="title">
+          <p>Contact Us</p>
+        </div>
+        <form id="contact-form">
+          <div class="mb-3">
+            <label for="fullname-input" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullname-input" />
+          </div>
+          <div class="mb-3">
+            <label for="email-input" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email-input" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label><br />
+            <textarea
+              class="form-control"
+              name="message"
+              id="message"
+              cols="50"
+              rows="6"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact information section -->
+    <section class="contact-information-section">
+      <div class="title"><p>Stay Connected</p></div>
+
+      <div class="contact-information-container">
+        <div class="address">
+          <p>address : 133/5, malibagh 1st lane , dhaka-1217</p>
+        </div>
+        <div class="email">
+          <p>Email : muhitlopez143@gmail.com</p>
+        </div>
+        <div class="phone">
+          <p>Phone : 01940012788</p>
+        </div>
+        <div class="social">
+          <div class="facebook-icon">
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
